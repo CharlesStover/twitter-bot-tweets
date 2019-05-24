@@ -116,6 +116,9 @@ module.exports = {
     media: 'reactn.png',
     status: `ReactN is a extension of #ReactJS that includes global state management. ${github}reactn ${hashtags('ReactJS', 'frontend', 'react', 'typescript')}`,
   },
+  'reactn-devtools': {
+    status: `ReactN DevTools allow you to view your ReactN global state with your browser's own Redux DevTools extension. ${hashtags(null, 'frontend', 'reactj', 'reactjs', 'redux', 'typescript')}`,
+  },
   'rn-webview': {
     status: `The rn-webview package fixes #ReactNative’s postMessage for iOS. ${github}react-native-web-view ${hashtags('ReactNative', 'reactnative')}`,
   },
