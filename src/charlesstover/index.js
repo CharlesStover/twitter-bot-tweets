@@ -10,6 +10,11 @@ module.exports = {
   'Are you underqualified to apply to a software development position?': {
     status: `For any junior #developers overwhelmed by minimum requirements and unsure if they’re ready: ${medium}are-you-underqualified-to-apply-to-a-software-development-position-45c01079861a ${hashtags([ 'developers', 'job' ], 'careers')}`,
   },
+  'Become the junior developer that companies want to hire.': [ {
+    status: `Thirty minutes of content on how to prepare physically and mentally for your interviews. https://charlesstover.com/become-the-junior-developer-that-companies-want-to-hire/ ${hashtags(null, 'careers')}`,
+  }, {
+    status: `Thirty minutes of content on how to prepare physically and mentally for your interviews. ${medium}become-the-junior-developer-that-companies-want-to-hire-c539f4c236d8 ${hashtags(null, 'careers')}`,
+  }],
   'Boost Your Page Speed: Reduce File Size': {
     status: `Improve your page load speeds with these quick tips to reduce your file sizes. ${medium}boost-your-page-speed-reduce-file-size-470057090c29 ${hashtags(null, 'frontend')}`,
   },
