@@ -45,6 +45,9 @@ module.exports = {
   'Manage global state with React hooks': {
     status: `ReactN offers a #ReactJS hook for accessing and managing global state. ${medium}manage-global-state-with-react-hooks-6065041b55b4 ${hashtags('ReactJS', 'frontend', 'react', 'reactnative', 'typescript')}`,
   },
+  'Manage your customers’ clipboards with React Hooks.': {
+    status: `Manage your customers’ clipboards with React Hooks. ${medium}manage-your-customers-clipboard-with-react-hooks-18486220d0d1 ${hashtags('ReactJS', 'js', 'frontend', 'react', 'typescript')}`,
+  },
   'No-boilerplate global state management in React': {
     status: `ReactN is an intuitive, boilerplate-free global state manager for #ReactJS. ${medium}no-boilerplate-global-state-management-in-react-41e905944eb7 ${hashtags('ReactJS', 'frontend', 'react', 'reactnative', 'redux', 'typescript')}`,
   },
@@ -127,17 +130,20 @@ module.exports = {
   'rn-webview': {
     status: `The rn-webview package fixes #ReactNative’s postMessage for iOS. ${github}react-native-web-view ${hashtags('ReactNative', 'reactnative')}`,
   },
+  'use-async-function': {
+    status: `useAsyncFunction couples your asynchronous function state to your #ReactJS component. ${github}use-async-function ${hashtags('ReactJS', 'frontend', 'react', 'typescript')}`,
+  },
   'use-clippy': {
-    status: `useClippy lets you manage your users’ clipboards with a #ReactJS Hook. ${github}use-clippy ${hashtags('ReactJS', 'frontend', 'react', 'typescript')}`,
+    status: `useClippy lets you manage your users’ clipboards with a #ReactJS hook. ${github}use-clippy ${hashtags('ReactJS', 'frontend', 'react', 'typescript')}`,
   },
   'use-dimensions': {
-    status: `#ReactNative’s Dimensions API is now accessible with Hooks. ${github}use-dimensions ${hashtags('ReactNative', 'reactnative', 'typescript')}`,
+    status: `#ReactNative’s Dimensions API is now accessible with hooks. ${github}use-dimensions ${hashtags('ReactNative', 'reactnative', 'typescript')}`,
   },
   'use-force-update': {
-    status: `useForceUpdate is a #ReactJS Hook that forces your functional component to re-render! ${github}use-force-update ${hashtags('ReactJS', 'frontend', 'react', 'reactnative', 'typescript')}`,
+    status: `useForceUpdate is a #ReactJS hook that forces your functional component to re-render! ${github}use-force-update ${hashtags('ReactJS', 'frontend', 'react', 'reactnative', 'typescript')}`,
   },
   'use-react-router': {
-    status: `useReactRouter is a #ReactJS Hook that provides pub-sub behavior for react-router! ${github}use-react-router ${hashtags('ReactJS', 'frontend', 'react', 'reactnative', 'typescript')}`,
+    status: `useReactRouter is a #ReactJS hook that provides pub-sub behavior for react-router! ${github}use-react-router ${hashtags('ReactJS', 'frontend', 'react', 'reactnative', 'typescript')}`,
   },
   'with-router': {
     status: `Do you wish that withRouter would rerender your Component when your route changes? Now it can! ${github}with-router ${hashtags(null, 'frontend', 'react')}`,
