@@ -1,6 +1,7 @@
 const aceAlters = (title, url, ...tags) => ({
-  alt_text: `${title} altered by Ace Quisido`,
-  media: `alters/${url}.jpg`,
+  media: {
+    [`${title} altered by Ace Quisido`]: `alters/${url}.jpg`,
+  },
   status:
     `${title} https://acealters.com/${url}/ ` +
     '#MagicTheGathering #MTG #MTGAlter #MTGArt #MTGCommunity #WeAreMTG' +
@@ -30,10 +31,10 @@ const darkSoulsDarkroot = (
     finale += 'acrylic thin wash';
   }
   return {
-    alt_text:
-      `${character} from the Dark Souls Darkroot Expansion, painted by Ace ` +
-      'Quisido',
-    media: `dark-souls-darkroot/${filename}.jpg`,
+    media: {
+      [`${character} from the Dark Souls Darkroot Expansion, painted by Ace Quisido`]:
+        `dark-souls-darkroot/${filename}.jpg`,
+    },
     status:
       `${character} painted with ${paints.join(' and ')}` +
       finale + ' and protected with varnish. ' +
@@ -150,16 +151,18 @@ module.exports = {
    * DRAWINGS
    */
   'Brittany Welsh': {
-    alt_text: 'Brittany Welsh, drawn by Ace Quisido',
-    media: 'drawings/brittany-welsh.jpg',
+    media: {
+      'Brittany Welsh, drawn by Ace Quisido': 'drawings/brittany-welsh.jpg',
+    },
     status:
       'Still life of a dear friend. Charcoals on Canson Mi-Teintes. ' +
       '#art #charcoal #stilllife',
   },
 
   'Lake Collage': {
-    alt_text: `Piece of Lake Collage, drawn by Ace Quisido`,
-    media: 'drawings/lake-collage-2.jpg',
+    media: {
+      'Piece of Lake Collage, drawn by Ace Quisido': 'drawings/lake-collage-2.jpg',
+    },
     /*
     [
       'drawings/lake-collage-1.jpg',
@@ -172,8 +175,9 @@ module.exports = {
   },
 
   'Portrait #1': {
-    alt_text: 'Portrait #1, drawn by Ace Quisido',
-    media: 'drawings/portrait-1.jpg',
+    media: {
+      'Portrait #1, drawn by Ace Quisido': 'drawings/portrait-1.jpg',
+    },
     status:
       'One of my earlier attempts at #Portraiture: ' +
       '#Charcoal on Gray Canson Mi-Teintes ' +
@@ -185,54 +189,26 @@ module.exports = {
   /**
    * FABRICATION
    */
-  'Deck Box': [ {
-    alt_text: 'Wooden Deck Box modeled after UltraPro tower by Ace Quisido.',
-    media: 'fabrication/deck-box-1.jpg',
+  'Deck Box': {
+    media: {
+      'Wooden Deck Box modeled after UltraPro tower by Ace Quisido (1/3).': 'fabrication/deck-box-1.jpg',
+      'Wooden Deck Box modeled after UltraPro tower by Ace Quisido (2/3).': 'fabrication/deck-box-2.jpg',
+      'Wooden Deck Box modeled after UltraPro tower by Ace Quisido (3/3).': 'fabrication/deck-box-3.jpg',
+    },
     status:
       'Wooden Deck Box made with Arkansas Cedar and steel sheets. ' +
       'Modeled after UltraPro tower. ' +
       '#MagicTheGathering #MTG #MTGCommunity #WeAreMTG #WoodWork',
-  }, {
-    alt_text: 'Wooden Deck Box modeled after UltraPro tower by Ace Quisido.',
-    media: 'fabrication/deck-box-2.jpg',
-    status: 
-      'Wooden Deck Box made with Arkansas Cedar and steel sheets. ' +
-      'Modeled after UltraPro tower.' +
-      '#MagicTheGathering #MTG #MTGCommunity #WeAreMTG #WoodWork',
-  }, {
-    alt_text: 'Wooden Deck Box modeled after UltraPro tower by Ace Quisido.',
-    media: 'fabrication/deck-box-3.jpg',
-    status: 
-      'Wooden Deck Box made with Arkansas Cedar and steel sheets. ' +
-      'Modeled after UltraPro tower.' +
-      '#MagicTheGathering #MTG #MTGCommunity #WeAreMTG #WoodWork',
-  } ],
+  },
 
-  'Resin River Box': [ {
-    alt_text: 'Clear Resin River Box by Ace Quisido',
-    media: 'fabrication/resin-river-box-closed.jpg',
-    status:
-      'Clear resin river on Arkansas Cedar finished with clear lacquer.' +
-      '#MagicTheGathering #MTG #MTGCommunity #WeAreMTG #WoodWork',
-  }, {
-    alt_text: 'Clear Resin River Box by Ace Quisido',
-    media: 'fabrication/resin-river-box-inside.jpg',
-    status:
-      'Clear resin river on Arkansas Cedar finished with clear lacquer.' +
-      '#MagicTheGathering #MTG #MTGCommunity #WeAreMTG #WoodWork',
-  }, {
-    alt_text: 'Clear Resin River Box by Ace Quisido',
-    media: 'fabrication/resin-river-box-open.jpg',
-    status:
-      'Clear resin river on Arkansas Cedar finished with clear lacquer.' +
-      '#MagicTheGathering #MTG #MTGCommunity #WeAreMTG #WoodWork',
-  }, {
-    alt_text: 'Clear Resin River Box by Ace Quisido',
-    media: 'fabrication/resin-river-box-open-closeup.jpg',
-    status:
-      'Clear resin river on Arkansas Cedar finished with clear lacquer.' +
-      '#MagicTheGathering #MTG #MTGCommunity #WeAreMTG #WoodWork',
-  } ],
+  'Resin River Box': {
+    media: {
+      'Clear Resin River Box by Ace Quisido (1/4)': 'fabrication/resin-river-box-closed.jpg',
+      'Clear Resin River Box by Ace Quisido (2/4)': 'fabrication/resin-river-box-inside.jpg',
+      'Clear Resin River Box by Ace Quisido (3/4)': 'fabrication/resin-river-box-open.jpg',
+      'Clear Resin River Box by Ace Quisido (4/4)': 'fabrication/resin-river-box-closeup.jpg',
+    },
+  },
 
 
 
@@ -289,8 +265,9 @@ module.exports = {
    * PAINTINGS
    */
   'Girl in the Red Dress': {
-    alt_text: 'Girl in the Red Dress, by Ace Quisido',
-    media: 'paintings/girl-in-the-red-dress.jpg',
+    media: {
+      'Girl in the Red Dress, by Ace Quisido': 'paintings/girl-in-the-red-dress.jpg',
+    },
     status:
       'Girl in the Red Dress -- an early attempt of #pastel #portraiture. ' +
       '#art #pastels #portrait',

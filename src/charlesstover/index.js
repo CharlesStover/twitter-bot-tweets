@@ -105,23 +105,27 @@ module.exports = {
     status: `Easily improve #ReactJS performance by caching your object props with the react-object-prop package! ${github}react-object-prop ${hashtags('ReactJS', 'frontend', 'react')}`,
   },
   'react-pluralsight-score': {
-    alt_text: 'Pluralsight IQ graph',
-    media: 'react-pluralsight-score.png',
+    media: {
+      'Pluralsight IQ graph': 'react-pluralsight-score.png',
+    },
     status: `Show off your Pluralsight IQ on your #ReactJS portfolio. ${github}react-pluralsight-score ${hashtags('ReactJS', 'frontend', 'react')}`,
   },
   'react-quotes-carousel': {
-    alt_text: 'react-quotes-carousel: a Quotes Carousel Component for ReactJS',
-    media: 'react-quotes-carousel.gif',
+    media: {
+      'react-quotes-carousel: a Quotes Carousel Component for ReactJS': 'react-quotes-carousel.gif',
+    },
     status: `react-quotes-carousel is a dependency-free quotes carousel Component for #ReactJS! ${github}react-quotes-carousel ${hashtags('ReactJS', 'frontend', 'react')}`,
   },
   'react-rainbow-text': {
-    alt_text: 'This is an example sentence that is the color of the rainbow.',
-    media: 'react-rainbow-text.png',
+    media: {
+      'This is an example sentence that is the color of the rainbow.': 'react-rainbow-text.png',
+    },
     status: `Beautifully rainbowify your text with the <RainbowText> #ReactJS Component. ${github}react-rainbow-text ${hashtags('ReactJS', 'frontend', 'react')}`,
   },
   reactn: {
-    alt_text: 'ReactN logo',
-    media: 'reactn.png',
+    media: {
+      'ReactN logo': 'reactn.png',
+    },
     status: `ReactN is a extension of #ReactJS that includes global state management. ${github}reactn ${hashtags('ReactJS', 'frontend', 'react', 'typescript')}`,
   },
   'reactn-devtools': {
@@ -156,12 +160,14 @@ module.exports = {
 
   // Ace Quisido
   'Ace Quisido': [ {
-    alt_text: '“Brittany Welsh” by Ace Quisido (@AceQuisido)',
-    media: 'brittany-welsh.jpg',
+    media: {
+      '“Brittany Welsh” by Ace Quisido (@AceQuisido)': 'brittany-welsh.jpg',
+    },
     status: 'Interested in more than web development? Follow @AceQuisido for beautiful art and design topics.',
   }, {
-    alt_text: '“Girl in the Red Dress” by Ace Quisido (@AceQuisido)',
-    media: 'girl-in-the-red-dress.jpg',
+    media: {
+      '“Girl in the Red Dress” by Ace Quisido (@AceQuisido)': 'girl-in-the-red-dress.jpg',
+    },
     status: 'Interested in more than web development? Follow @AceQuisido for beautiful art and design topics.',
   } ],
 };
