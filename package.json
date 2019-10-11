@@ -4,11 +4,6 @@
   "author": "Charles Stover <github@charlesstover.com>",
   "description": "tweets for a Twitter Bot",
   "license": "MIT",
-  "pre-commit": [
-    "build",
-    "test",
-    "add-build"
-  ],
   "private": true,
   "repository": "https://github.com/CharlesStover/twitter-bot-tweets.git",
   "scripts": {
@@ -17,7 +12,6 @@
     "test": "mocha tests/index.test.js"
   },
   "devDependencies": {
-    "mocha": "^6.1.4",
-    "pre-commit": "^1.2.2"
+    "mocha": "^6.1.4"
   }
 }

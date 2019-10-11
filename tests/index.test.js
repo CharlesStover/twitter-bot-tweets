@@ -39,9 +39,8 @@ const testTweet = (user, tweet) => {
 
   // Retweet
   if (tweet.retweet) {
-    expectUndefined(tweet, 'alt_text');
     expectUndefined(tweet, 'media');
-    expectString(tweet, 'reetweet');
+    expectString(tweet, 'retweet');
     expectMatch(tweet, 'retweet', /^\d+$/);
     expectUndefined(tweet, 'status');
   }
@@ -57,15 +56,16 @@ const testTweet = (user, tweet) => {
     }
 
     if (Object.prototype.hasOwnProperty.call(tweet, 'media')) {
-      expectString(tweet, 'alt_text');
-      expectStyle(tweet, 'alt_text');
-      expectString(tweet, 'media');
-      if (!fs.existsSync(path.join('src', user.toLowerCase(), tweet.media))) {
-        throw new Error(`Media does not exist: ${user.toLowerCase()}/${tweet.media}`);
+      if (typeof tweet.media !== 'object') {
+        throw new Error('Tweet media must be an object in the form { alt_text: path }.');
       }
-    }
-    else {
-      expectUndefined(tweet, 'alt_text');
+      for (const entry of Object.entries(tweet.media)) {
+        expectStyle(entry, 0);
+        expectString(entry, 1);
+        if (!fs.existsSync(path.join('src', user.toLowerCase(), entry[1]))) {
+          throw new Error(`Media does not exist: ${user.toLowerCase()}/${entry[1]}`);
+        }
+      }
     }
   }
 
@@ -77,7 +77,7 @@ const testTweet = (user, tweet) => {
 
 describe('Tweet indexes', () => {
   for (const user of indexes) {
-    const index = JSON.parse(fs.readFileSync(`./build/${user}.json`));
+    const index = JSON.parse(fs.readFileSync(`./build/${user}/index.json`));
     describe(`@${user}`, () => {
       it('should have valid tweet index shape', () => {
         for (const tweet of Object.values(index)) {

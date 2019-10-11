@@ -206,8 +206,11 @@ module.exports = {
       'Clear Resin River Box by Ace Quisido (1/4)': 'fabrication/resin-river-box-closed.jpg',
       'Clear Resin River Box by Ace Quisido (2/4)': 'fabrication/resin-river-box-inside.jpg',
       'Clear Resin River Box by Ace Quisido (3/4)': 'fabrication/resin-river-box-open.jpg',
-      'Clear Resin River Box by Ace Quisido (4/4)': 'fabrication/resin-river-box-closeup.jpg',
+      'Clear Resin River Box by Ace Quisido (4/4)': 'fabrication/resin-river-box-open-closeup.jpg',
     },
+    status:
+      'Clear resin river on Arkansas Cedar finished with clear lacquer.' +
+      '#MagicTheGathering #MTG #MTGCommunity #WeAreMTG #WoodWork',
   },
 
 
