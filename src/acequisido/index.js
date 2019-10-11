@@ -10,7 +10,7 @@ const aceAlters = (title, url, ...tags) => ({
 
 const darkSoulsDarkroot = (
   character,
-  filename,
+  filenames,
   acrylic = true,
   oil = true,
   wash = true,
@@ -31,10 +31,13 @@ const darkSoulsDarkroot = (
     finale += 'acrylic thin wash';
   }
   return {
-    media: {
+    media: typeof filenames === 'string' ? {
       [`${character} from the Dark Souls Darkroot Expansion, painted by Ace Quisido`]:
-        `dark-souls-darkroot/${filename}.jpg`,
-    },
+        `dark-souls-darkroot/${filenames}.jpg`,
+    } : Object.entries(filenames).reduce((acc, [description, filename]) => {
+      acc[`${character} (${description}) from the Dark Souls Darkroot Expansion, painted by Ace Quisido`] = `dark-souls-darkroot/${filename}.jpg`;
+      return acc;
+    }, {}),
     status:
       `${character} painted with ${paints.join(' and ')}` +
       finale + ' and protected with varnish. ' +
@@ -218,10 +221,10 @@ module.exports = {
   /**
    * MINIATURES
    */
-  Artorias: [
-    darkSoulsDarkroot('Artorias', 'artorias-front', true, true, true),
-    darkSoulsDarkroot('Artorias', 'artorias-side', true, true, true),
-  ],
+  Artorias: darkSoulsDarkroot('Artorias', {
+    Front: 'artorias-front',
+    Side: 'artorias-side',
+  }, true, true, true),
 
   'Mushroom Parent & Child': darkSoulsDarkroot(
     'Mushroom Parent and Mushroom Child', 'mushrooms', true, false, false,
@@ -231,33 +234,23 @@ module.exports = {
     'Demonic Foliage', 'demonic-foliage', true, false, false,
   ),
 
-  Scarecrows: [
-    darkSoulsDarkroot('Plow Scarecrow', 'plow-scarecrow', true, true, true),
-    darkSoulsDarkroot(
-      'Shears Scarecrow', 'shears-scarecrow', true, true, true,
-    ),
-  ],
+  Scarecrows: darkSoulsDarkroot('Scarecrows', {
+    'Plow Scarecrow': 'plow-scarecrow',
+    'Shears Scarecrow': 'shears-scarecrow',
+  }, true, true, true),
 
-  'Sif, the Great Grey Wolf': [
-    darkSoulsDarkroot(
-      'Sif, the Great Grey Wolf', 'sif-front', true, true, true,
-    ),
-    darkSoulsDarkroot(
-      'Sif, the Great Grey Wolf', 'sif-left', true, true, true,
-    ),
-    darkSoulsDarkroot(
-      'Sif, the Great Grey Wolf', 'sif-right', true, true, true,
-    ),
-  ],
+  'Sif, the Great Grey Wolf': darkSoulsDarkroot('Sif, the Great Grey Wolf', {
+    'Front': 'sif-front',
+    'Left': 'sif-left',
+    'Right': 'sif-right',
+  }, true, true, true),
 
-  'Stone Guardian': [
-    darkSoulsDarkroot(
-      'Stone Guardian', 'stone-guardian-side', true, true, true,
-    ),
-    darkSoulsDarkroot(
-      'Stone Guardian', 'stone-guardian-front', true, true, true,
-    ),
-  ],
+  'Stone Guardian': darkSoulsDarkroot(
+    'Stone Guardian', {
+      'Front': 'stone-guardian-front',
+      'Side': 'stone-guardian-side',
+    }, true, true, true,
+  ),
 
   'Stone Knight':
     darkSoulsDarkroot('Stone Knight', 'stone-knight', false, true, true),

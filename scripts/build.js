@@ -13,19 +13,28 @@ for (const account of accounts) {
     JSON.stringify(tweets) + '\n',
   );
   for (const metadata of Object.values(tweets)) {
-    if (metadata.media) {
-      for (const filepath of Object.values(metadata.media)) {
-        const sourceDirs = filepath.split('/');
-        sourceDirs.pop();
-        const destinationDir = `./build/${account}/${sourceDirs.join('/')}`;
-        if (!existsSync(destinationDir)) {
-          mkdirSync(destinationDir, { recursive: true });
+    const buildMetadata = (m) => {
+      if (m.media) {
+        for (const filepath of Object.values(m.media)) {
+          const sourceDirs = filepath.split('/');
+          sourceDirs.pop();
+          const destinationDir = `./build/${account}/${sourceDirs.join('/')}`;
+          if (!existsSync(destinationDir)) {
+            mkdirSync(destinationDir, { recursive: true });
+          }
+          copyFileSync(
+            `./src/${account}/${filepath}`,
+            `./build/${account}/${filepath}`,
+          );
         }
-        copyFileSync(
-          `./src/${account}/${filepath}`,
-          `./build/${account}/${filepath}`,
-        );
       }
+    };
+    if (Array.isArray(metadata)) {
+      for (const m of metadata) {
+        buildMetadata(m);
+      }      
+    } else {
+      buildMetadata(metadata);
     }
   }
 }
