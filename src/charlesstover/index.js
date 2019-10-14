@@ -89,6 +89,9 @@ module.exports = {
   'mssql-query-builder': {
     status: `mssql-query-builder dynamically builds Microsoft SQL Server queries in #JavaScript! ${github}mssql-query-builder ${hashtags('JavaScript', 'js', 'mssql', 'typescript')}`,
   },
+  'number-format-react': {
+    status: `You can format numbers using Intl.NumberFormat with a #ReactJS component and #TypeScript support. ${github}number-format-react ${hashtags([ 'ReactJS', 'TypeScript' ], 'frontend', 'react', 'typescript')}`,
+  },
   'rainbow-gradient': {
     status: `Use rainbow-gradient to easily generate an array of smoothly-transitioned RGB values for any length, saturation, or lightness. ${github}rainbow-gradient ${hashtags(null, 'frontend', 'js')}`,
   },
