@@ -83,6 +83,9 @@ module.exports = {
   'Fixing Volumes in Docker Toolbox': {
     status: `Volumes in #Docker Toolbox require you to configure Oracle Virtualbox to have access to your folders. ${medium}fixing-volumes-in-docker-toolbox-4ad5ace0e572`,
   },
+  'Four tips to gain visibility as an introvert': {
+    status: `Four tips to gain visibility as an introvert ${medium}four-tips-to-gain-visibility-as-an-introvert-cfaf26ca4ac2 #careeradvice #careers #careerdevelopment #introvert #introverts #selfimprovement #communication #communicationskills #introvertproblems #work #workplace`,
+  },
   'How to convert withRouter to a React Hook': {
     status: `Converting react-router’s withRouter HOC to a #ReactJS Hook: A Tutorial ${medium}how-to-convert-withrouter-to-a-react-hook-19bb02a29ed6 ${hashtags(
       'ReactJS',
