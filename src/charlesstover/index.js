@@ -170,14 +170,6 @@ module.exports = {
       'js',
     )}`,
   },
-  '@charlesstover/quicksort': {
-    status: `You can sort your arrays using Quicksort in #JavaScript. ${github}quicksort-js ${hashtags(
-      ['JavaScript'],
-      'frontend',
-      'js',
-      'typescript',
-    )}`,
-  },
   'deep-proxy-polyfill': {
     status: `Deeply nest #JavaScript Proxy’s get and set property listeners, even in browsers that don’t support Proxies! ${github}deep-proxy-polyfill ${hashtags(
       ['JavaScript'],
@@ -191,15 +183,6 @@ module.exports = {
       [],
       'frontend',
       'js',
-    )}`,
-  },
-  'fetch-action-creator': {
-    status: `fetch-action-creator reduces boilerplate and errors by automating the process of writing #Redux actions for Fetch API requests. ${github}fetch-action-creator ${hashtags(
-      ['Redux'],
-      'frontend',
-      'react',
-      'redux',
-      'typescript',
     )}`,
   },
   'fetch-suspense': {
@@ -255,20 +238,6 @@ module.exports = {
       'uiux',
     )}`,
   },
-  'react-multi-context': {
-    status: `Simplify #ReactJS’s Context API by managing multiple contexts with a single component. ${github}react-multi-context ${hashtags(
-      ['ReactJS'],
-      'frontend',
-      'react',
-    )}`,
-  },
-  'react-object-prop': {
-    status: `Easily improve #ReactJS performance by caching your object props with the react-object-prop package! ${github}react-object-prop ${hashtags(
-      ['ReactJS'],
-      'frontend',
-      'react',
-    )}`,
-  },
   'react-pluralsight-score': {
     media: {
       'Pluralsight IQ graph': 'react-pluralsight-score.png',
@@ -309,15 +278,6 @@ module.exports = {
       ['ReactJS'],
       'frontend',
       'react',
-      'typescript',
-    )}`,
-  },
-  'reactn-devtools': {
-    status: `ReactN DevTools allow you to view your ReactN global state with your browser’s own Redux DevTools extension. ${hashtags(
-      [],
-      'frontend',
-      'react',
-      'redux',
       'typescript',
     )}`,
   },
@@ -366,13 +326,6 @@ module.exports = {
       'react',
       'reactnative',
       'typescript',
-    )}`,
-  },
-  'with-router': {
-    status: `Do you wish that withRouter would rerender your Component when your route changes? Now it can! ${github}with-router ${hashtags(
-      [],
-      'frontend',
-      'react',
     )}`,
   },
 
