@@ -1,0 +1,290 @@
+{
+  "A React hook for asynchronous state.": [
+    {
+      "status": "A #ReactJS hook can couple a component’s state with an async function (with strong #TypeScript support).",
+      "link": "https://medium.com/@Charles_Stover/a-react-hook-for-asynchronous-state-4dc24379be61"
+    }
+  ],
+
+  "Are you underqualified to apply to a software development position?": [
+    {
+      "status": "For any junior developers overwhelmed by minimum requirements and unsure if you're ready:",
+      "link": "https://medium.com/@Charles_Stover/are-you-underqualified-to-apply-to-a-software-development-position-45c01079861a"
+    }
+  ],
+
+  "Become the junior developer that companies want to hire.": [
+    {
+      "status": "Thirty minutes of content on how to prepare physically and mentally for your interviews.",
+      "link": "https://charlesstover.com/become-the-junior-developer-that-companies-want-to-hire/"
+    },
+    {
+      "status": "Thirty minutes of content on how to prepare physically and mentally for your interviews.",
+      "link": "https://medium.com/@Charles_Stover/become-the-junior-developer-that-companies-want-to-hire-c539f4c236d8"
+    }
+  ],
+
+  "Boost Your Page Speed: Reduce File Size": [
+    {
+      "status": "Six tips to minimize your web app's download time.",
+      "link": "https://medium.com/@Charles_Stover/boost-your-page-speed-reduce-file-size-470057090c29"
+    }
+  ],
+
+  "Boost Your Page Speed: Reduce Parse Time": [
+    {
+      "status": "Nine tips to parse and render your #frontend web app faster.",
+      "link": "https://medium.com/@Charles_Stover/boost-your-page-speed-reduce-parse-time-d2a380907de5"
+    }
+  ],
+
+  "Boost Your Page Speed: Reduce Server Calls": [
+    {
+      "status": "Eight tips to reduce your #frontend web app's network traffic.",
+      "link": "https://medium.com/@Charles_Stover/boost-your-page-speed-reduce-server-calls-6b7384d38cb"
+    }
+  ],
+
+  "Cache your React event listeners to improve performance": [
+    {
+      "status": "A deep-dive into the performance benefits of memoizing #ReactJS props.",
+      "link": "https://medium.com/@Charles_Stover/cache-your-react-event-listeners-to-improve-performance-14f635a62e15"
+    }
+  ],
+
+  "The Fetch API and asynchronous Redux state": [
+    {
+      "status": "Understand the states of an API call and their relationship to a #Redux store",
+      "link": "https://medium.com/@Charles_Stover/the-fetch-api-and-asynchronous-redux-state-203270a540d4"
+    }
+  ],
+
+  "Fixing React Native WebView’s postMessage for iOS": [
+    {
+      "status": "A #JavaScript-only solution to Expo’s postMessage problem on #iOS.",
+      "link": "https://medium.com/@Charles_Stover/fixing-react-native-webviews-postmessage-for-ios-10e2320b2f14"
+    }
+  ],
+
+  "Fixing Volumes in Docker Toolbox": [
+    {
+      "status": "Volumes in #Docker Toolbox require you to configure Oracle Virtualbox to have access to your folders.",
+      "link": "https://medium.com/@Charles_Stover/fixing-volumes-in-docker-toolbox-4ad5ace0e572"
+    }
+  ],
+
+  "Four tips to gain visibility as an introvert": [
+    {
+      "status": "Are you an #introvert? Feeling invisible in the workplace? Here is some #careeradvice to gian visibility.",
+      "link": "https://medium.com/@Charles_Stover/four-tips-to-gain-visibility-as-an-introvert-cfaf26ca4ac2"
+    }
+  ],
+
+  "How to convert withRouter to a React Hook": [
+    {
+      "status": "How to replace react-router’s withRouter with a #ReactJS hook",
+      "link": "https://medium.com/@Charles_Stover/how-to-convert-withrouter-to-a-react-hook-19bb02a29ed6"
+    }
+  ],
+
+  "Implementing Quicksort in JavaScript": [
+    {
+      "status": "How to implement the Quicksort algorithm in #JavaScript",
+      "link": "https://medium.com/@Charles_Stover/implementing-quicksort-in-javascript-8044a8e2bf39"
+    }
+  ],
+
+  "Manage global state with React hooks": [
+    {
+      "status": "ReactN offers #ReactJS hooks for accessing and managing global state.",
+      "link": "https://medium.com/@Charles_Stover/manage-global-state-with-react-hooks-6065041b55b4"
+    }
+  ],
+
+  "Manage your customers’ clipboards with React Hooks.": [
+    {
+      "status": "Read from and write to your users' clipboards with #ReactJS hooks.",
+      "link": "https://medium.com/@Charles_Stover/manage-your-customers-clipboard-with-react-hooks-18486220d0d1"
+    }
+  ],
+
+  "No-boilerplate global state management in React": [
+    {
+      "status": "ReactN is an intuitive, boilerplate-free global state manager for #ReactJS.",
+      "link": "https://medium.com/@Charles_Stover/no-boilerplate-global-state-management-in-react-41e905944eb7"
+    }
+  ],
+
+  "Optimal file structure for React applications": [
+    {
+      "status": "The #ReactJS community still struggles with file structure. It’s a lot of work to refactor, so I’ve published some tips I’ve learned along the way.",
+      "link": "https://medium.com/@Charles_Stover/optimal-file-structure-for-react-applications-f3e35ad0a145"
+    }
+  ],
+
+  "React Suspense with the Fetch API": [
+    {
+      "status": "When Dan Abramov tells you Suspense is incompatible with a Fetch API #ReactJS hook, prove him wrong.",
+      "link": "https://medium.com/@Charles_Stover/react-suspense-with-the-fetch-api-a1b7369b0469"
+    }
+  ],
+
+  "Replacing Redux with ReactN to reduce complexity and bundle size": [
+    {
+      "status": "I convert a bare-bones #ReactJS/#Redux application to ReactN to showcase simpler code and a 15% reduction in bundle size.",
+      "link": "https://medium.com/@Charles_Stover/replacing-redux-with-reactn-to-reduce-complexity-and-bundle-size-aa7009cd1209"
+    }
+  ],
+
+  "Variable length currying in JavaScript": [
+    {
+      "status": "How to write a curried function in #JavaScript that can take any number of parameters.",
+      "link": "https://medium.com/@Charles_Stover/variable-length-currying-in-javascript-7f7bb7bdad8b"
+    }
+  ],
+
+  "@charlesstover/hsl2rgb": [
+    {
+      "status": "Work with colors? Simplify your code base by using hsl2rgb to easily convert HSL to RGB values in #JavaScript.",
+      "link": "https://github.com/CharlesStover/hsl2rgb-js"
+    }
+  ],
+
+  "deep-proxy-polyfill": [
+    {
+      "status": "Deeply nest #JavaScript Proxy’s get and set property listeners, even in browsers that don’t support Proxy!",
+      "link": "https://github.com/CharlesStover/deep-proxy-polyfill"
+    }
+  ],
+
+  "delimiter": [
+    {
+      "status": "Do you give a fRiCk about an #OxfordComma? You can automatically delimit your arrays in #JavaScript.",
+      "link": "https://github.com/CharlesStover/delimiter"
+    }
+  ],
+
+  "fetch-suspense": [
+    {
+      "status": "fetch-suspense is a #ReactJS hook for the Fetch API that supports the Suspense component!",
+      "link": "https://github.com/CharlesStover/fetch-suspense"
+    }
+  ],
+
+  "konami": [
+    {
+      "status": "↑↑↓↓←→←→🅱🅰, now as a #JavaScript event listener",
+      "link": "https://github.com/GamingMedley/konami.js"
+    }
+  ],
+
+  "mssql-query-builder": [
+    {
+      "status": "mssql-query-builder dynamically builds Microsoft SQL Server queries in #JavaScript!",
+      "link": "https://github.com/CharlesStover/mssql-query-builder"
+    }
+  ],
+
+  "number-format-react": [
+    {
+      "status": "You can format numbers using Intl.NumberFormat with a #ReactJS component and #TypeScript support.",
+      "link": "https://github.com/CharlesStover/number-format-react"
+    }
+  ],
+
+  "rainbow-gradient": [
+    {
+      "status": "Use rainbow-gradient to easily generate an array of smoothly-transitioned RGB values for any length, saturation, or lightness in #JavaScript.",
+      "link": "https://github.com/CharlesStover/rainbow-gradient"
+    }
+  ],
+
+  "react-innertext": [
+    {
+      "status": "The react-innertext package lets you access the innerText of #ReactJS components as if they were DOM nodes.",
+      "link": "https://github.com/CharlesStover/react-innertext"
+    }
+  ],
+
+  "react-mui-tooltip": [
+    {
+      "status": "A #ReactJS component for #MaterialDesign tooltips",
+      "link": "https://github.com/CharlesStover/react-mui-tooltip"
+    }
+  ],
+
+  "react-pluralsight-score": [
+    {
+      "status": "Show off your Pluralsight IQ on your #ReactJS portfolio.",
+      "link": "https://github.com/CharlesStover/react-pluralsight-score",
+      "media": {
+        "Pluralsight IQ graph": "https://github.com/CharlesStover/twitter-bot-tweets/raw/master/tweets/charlesstover/react-pluralsight-score.png"
+      }
+    }
+  ],
+
+  "react-quotes-carousel": [
+    {
+      "status": "Showcase quotes in a #ReactJS carousel component.",
+      "link": "https://github.com/CharlesStover/react-quotes-carousel",
+      "media": {
+        "react-quotes-carousel: a Quotes Carousel Component for ReactJS": "https://github.com/CharlesStover/twitter-bot-tweets/raw/master/tweets/charlesstover/react-quotes-carousel.gif"
+      }
+    }
+  ],
+
+  "react-rainbow-text": [
+    {
+      "status": "Beautifully rainbowify your text with a #ReactJS Component.",
+      "link": "https://github.com/CharlesStover/react-rainbow-text",
+      "media": {
+        "This is an example sentence that is the color of the rainbow.": "https://github.com/CharlesStover/twitter-bot-tweets/raw/master/tweets/charlesstover/react-rainbow-text.png"
+      }
+    }
+  ],
+
+  "reactn": [
+    {
+      "status": "ReactN is a extension of #ReactJS that includes global state management.",
+      "link": "https://github.com/CharlesStover/reactn",
+      "media": {
+        "ReactN logo": "https://github.com/CharlesStover/twitter-bot-tweets/raw/master/tweets/charlesstover/reactn.png"
+      }
+    }
+  ],
+
+  "rn-webview": [
+    {
+      "status": "Solve #ReactNative’s iOS postMessage problem using a fixed #ReactJS component.",
+      "link": "https://github.com/CharlesStover/react-native-web-view"
+    }
+  ],
+
+  "use-clippy": [
+    {
+      "status": "Read from and write to your users’ clipboards with a #ReactJS hook.",
+      "link": "https://github.com/CharlesStover/use-clippy"
+    }
+  ],
+
+  "use-dimensions": [
+    {
+      "status": "#ReactNative’s Dimensions API is now accessible with #ReactJS hooks.",
+      "link": "https://github.com/CharlesStover/use-dimensions"
+    }
+  ],
+
+  "use-force-update": [
+    {
+      "status": "Force your #ReactJS function components to re-render with hooks.",
+      "link": "https://github.com/CharlesStover/use-force-update"
+    }
+  ],
+
+  "Spritesheet to GIF Converter": [
+    {
+      "status": "Convert sprite sheets to animated #GIFs with the click of a button.",
+      "link": "https://charlesstover.com/spritesheet2gif"
+    }
+  ]
+}

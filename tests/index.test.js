@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const indexes = [ 'AceQuisido', 'CharlesStover' ];
+const indexes = ['AceQuisido'];
 
 const MAX_TWEET_LENGTH = 280;
 const URL = /https?:\/\/.+?\s/g;
@@ -25,7 +25,9 @@ const expectStyle = (obj, key) => {
     throw new Error(`Property "${key}" contains ' instead of ’.\n${obj[key]}`);
   }
   if (/"/.test(obj[key])) {
-    throw new Error(`Property "${key}" contains " instead of “ or ”.\n${obj[key]}`);
+    throw new Error(
+      `Property "${key}" contains " instead of “ or ”.\n${obj[key]}`,
+    );
   }
 };
 
@@ -36,7 +38,6 @@ const expectUndefined = (obj, key) => {
 };
 
 const testTweet = (user, tweet) => {
-
   // Retweet
   if (tweet.retweet) {
     expectUndefined(tweet, 'media');
@@ -52,18 +53,26 @@ const testTweet = (user, tweet) => {
     expectStyle(tweet, 'status');
     const TWEET_LENGTH = tweet.status.replace(URL, URL_PLACEHOLDER).length;
     if (TWEET_LENGTH > MAX_TWEET_LENGTH) {
-      throw new Error(`Status length cannot be above ${MAX_TWEET_LENGTH} characters. Delete ${TWEET_LENGTH - MAX_TWEET_LENGTH} characters.\n${tweet.status}`);
+      throw new Error(
+        `Status length cannot be above ${MAX_TWEET_LENGTH} characters. Delete ${
+          TWEET_LENGTH - MAX_TWEET_LENGTH
+        } characters.\n${tweet.status}`,
+      );
     }
 
     if (Object.prototype.hasOwnProperty.call(tweet, 'media')) {
       if (typeof tweet.media !== 'object') {
-        throw new Error('Tweet media must be an object in the form { alt_text: path }.');
+        throw new Error(
+          'Tweet media must be an object in the form { alt_text: path }.',
+        );
       }
       for (const entry of Object.entries(tweet.media)) {
         expectStyle(entry, 0);
         expectString(entry, 1);
         if (!fs.existsSync(path.join('src', user.toLowerCase(), entry[1]))) {
-          throw new Error(`Media does not exist: ${user.toLowerCase()}/${entry[1]}`);
+          throw new Error(
+            `Media does not exist: ${user.toLowerCase()}/${entry[1]}`,
+          );
         }
       }
     }
@@ -71,9 +80,11 @@ const testTweet = (user, tweet) => {
 
   // Unknown
   else {
-    throw new Error(`Tweet is not a retweet or a status:\n${JSON.stringify(tweet)}`);
+    throw new Error(
+      `Tweet is not a retweet or a status:\n${JSON.stringify(tweet)}`,
+    );
   }
-}
+};
 
 describe('Tweet indexes', () => {
   for (const user of indexes) {
@@ -85,13 +96,11 @@ describe('Tweet indexes', () => {
             for (const tweet2 of tweet) {
               testTweet(user, tweet2);
             }
-          }
-          else {
+          } else {
             testTweet(user, tweet);
           }
         }
       });
-
     });
   }
 });
