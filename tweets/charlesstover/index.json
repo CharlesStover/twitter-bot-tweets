@@ -6,42 +6,61 @@
     }
   ],
 
+  "@charlesstover/quicksort": [
+    {
+      "status": "How to implement the Quicksort algorithm in #JavaScript",
+      "link": "https://charles-stover.medium.com/implementing-quicksort-in-javascript-8044a8e2bf39",
+      "media": {
+        "visualization of the quicksort algorithm": "https://github.com/CharlesStover/twitter-bot-tweets/raw/master/tweets/charlesstover/quicksort.gif"
+      }
+    }
+  ],
+
   "Are you underqualified to apply to a software development position?": [
     {
       "status": "For any junior developers overwhelmed by minimum requirements and unsure if you're ready:",
-      "link": "https://medium.com/@Charles_Stover/are-you-underqualified-to-apply-to-a-software-development-position-45c01079861a"
+      "link": "https://charles-stover.medium.com/are-you-underqualified-to-apply-to-a-software-development-position-45c01079861a",
+      "media": {
+        "stressed man in front of computer": "https://github.com/CharlesStover/twitter-bot-tweets/raw/master/tweets/charlesstover/are-you-underqualified.png"
+      }
+    }
+  ],
+
+  "awsui-theme": [
+    {
+      "status": "How to apply your brand's theme to AWS UI #ReactJS components",
+      "link": "https://charles-stover.medium.com/how-to-apply-your-brands-theme-to-aws-ui-components-4eb288353a45",
+      "media": {
+        "before and after applying a custom theme": "https://github.com/CharlesStover/twitter-bot-tweets/raw/master/tweets/charlesstover/awsui-theme.png"
+      }
     }
   ],
 
   "Become the junior developer that companies want to hire.": [
     {
       "status": "Thirty minutes of content on how to prepare physically and mentally for your interviews.",
-      "link": "https://charlesstover.com/become-the-junior-developer-that-companies-want-to-hire/"
-    },
-    {
-      "status": "Thirty minutes of content on how to prepare physically and mentally for your interviews.",
-      "link": "https://medium.com/@Charles_Stover/become-the-junior-developer-that-companies-want-to-hire-c539f4c236d8"
+      "link": "https://charles-stover.medium.com/become-the-junior-developer-that-companies-want-to-hire-c539f4c236d8"
     }
   ],
 
   "Boost Your Page Speed: Reduce File Size": [
     {
       "status": "Six tips to minimize your web app's download time.",
-      "link": "https://medium.com/@Charles_Stover/boost-your-page-speed-reduce-file-size-470057090c29"
+      "link": "https://charles-stover.medium.com/boost-your-page-speed-reduce-file-size-470057090c29"
     }
   ],
 
   "Boost Your Page Speed: Reduce Parse Time": [
     {
       "status": "Nine tips to parse and render your #frontend web app faster.",
-      "link": "https://medium.com/@Charles_Stover/boost-your-page-speed-reduce-parse-time-d2a380907de5"
+      "link": "https://charles-stover.medium.com/boost-your-page-speed-reduce-parse-time-d2a380907de5"
     }
   ],
 
   "Boost Your Page Speed: Reduce Server Calls": [
     {
       "status": "Eight tips to reduce your #frontend web app's network traffic.",
-      "link": "https://medium.com/@Charles_Stover/boost-your-page-speed-reduce-server-calls-6b7384d38cb"
+      "link": "https://charles-stover.medium.com/boost-your-page-speed-reduce-server-calls-6b7384d38cb"
     }
   ],
 
@@ -62,42 +81,27 @@
   "fetch-suspense": [
     {
       "status": "When Dan Abramov tells you Suspense is incompatible with a Fetch API #ReactJS hook, prove him wrong.",
-      "link": "https://medium.com/@Charles_Stover/react-suspense-with-the-fetch-api-a1b7369b0469"
+      "link": "https://charles-stover.medium.com/react-suspense-with-the-fetch-api-a1b7369b0469",
+      "media": {
+        "That's where you're wrong, Danno.": "https://github.com/CharlesStover/twitter-bot-tweets/raw/master/tweets/charlesstover/fetch-suspense.png"
+      }
     }
   ],
 
-  "Fixing Volumes in Docker Toolbox": [
+  "Fixing volumes in Docker Toolbox": [
     {
       "status": "Volumes in #Docker Toolbox require you to configure Oracle Virtualbox to have access to your folders.",
-      "link": "https://medium.com/@Charles_Stover/fixing-volumes-in-docker-toolbox-4ad5ace0e572"
+      "link": "https://charles-stover.medium.com/fixing-volumes-in-docker-toolbox-4ad5ace0e572",
+      "media": {
+        "Fixing volumes in Docker Toolbox": "https://github.com/CharlesStover/twitter-bot-tweets/raw/master/tweets/charlesstover/fixing-volumes-in-docker-toolbox.png"
+      }
     }
   ],
 
   "Four tips to gain visibility as an introvert": [
     {
       "status": "Are you an #introvert? Feeling invisible in the workplace? Here is some #careeradvice to gian visibility.",
-      "link": "https://medium.com/@Charles_Stover/four-tips-to-gain-visibility-as-an-introvert-cfaf26ca4ac2"
-    }
-  ],
-
-  "How to convert withRouter to a React Hook": [
-    {
-      "status": "How to replace react-router’s withRouter with a #ReactJS hook",
-      "link": "https://medium.com/@Charles_Stover/how-to-convert-withrouter-to-a-react-hook-19bb02a29ed6"
-    }
-  ],
-
-  "Implementing Quicksort in JavaScript": [
-    {
-      "status": "How to implement the Quicksort algorithm in #JavaScript",
-      "link": "https://medium.com/@Charles_Stover/implementing-quicksort-in-javascript-8044a8e2bf39"
-    }
-  ],
-
-  "konami": [
-    {
-      "status": "↑↑↓↓←→←→🅱🅰, now as a #JavaScript event listener",
-      "link": "https://github.com/GamingMedley/konami.js"
+      "link": "https://charles-stover.medium.com/four-tips-to-gain-visibility-as-an-introvert-cfaf26ca4ac2"
     }
   ],
 
@@ -125,7 +129,10 @@
   "Optimal file structure for React applications": [
     {
       "status": "The #ReactJS community still struggles with file structure. It’s a lot of work to refactor, so I’ve published some tips I’ve learned along the way.",
-      "link": "https://medium.com/@Charles_Stover/optimal-file-structure-for-react-applications-f3e35ad0a145"
+      "link": "https://charles-stover.medium.com/optimal-file-structure-for-react-applications-f3e35ad0a145",
+      "media": {
+        "screenshot of VS Code's file explorer": "https://github.com/CharlesStover/twitter-bot-tweets/raw/master/tweets/charlesstover/optimal-file-structure.png"
+      }
     }
   ],
 
@@ -183,14 +190,14 @@
   "reactn": [
     {
       "status": "ReactN offers #ReactJS hooks for accessing and managing global state.",
-      "link": "https://medium.com/@Charles_Stover/manage-global-state-with-react-hooks-6065041b55b4",
+      "link": "https://charles-stover.medium.com/manage-global-state-with-react-hooks-6065041b55b4",
       "media": {
         "ReactN logo": "https://github.com/CharlesStover/twitter-bot-tweets/raw/master/tweets/charlesstover/reactn.png"
       }
     },
     {
       "status": "ReactN is an intuitive, boilerplate-free global state manager for #ReactJS.",
-      "link": "https://medium.com/@Charles_Stover/no-boilerplate-global-state-management-in-react-41e905944eb7",
+      "link": "https://charles-stover.medium.com/no-boilerplate-global-state-management-in-react-41e905944eb7",
       "media": {
         "ReactN logo": "https://github.com/CharlesStover/twitter-bot-tweets/raw/master/tweets/charlesstover/reactn.png"
       }
@@ -199,18 +206,17 @@
 
   "rn-webview": [
     {
-      "status": "A #JavaScript-only solution to Expo’s postMessage problem on #iOS.",
-      "link": "https://medium.com/@Charles_Stover/fixing-react-native-webviews-postmessage-for-ios-10e2320b2f14"
-    },
-    {
       "status": "Solve #ReactNative’s iOS postMessage problem using a fixed #ReactJS component.",
-      "link": "https://github.com/CharlesStover/react-native-web-view"
+      "link": "https://charles-stover.medium.com/fixing-react-native-webviews-postmessage-for-ios-10e2320b2f14",
+      "media": {
+        "Setting onMessage on a WebView ovrrides existing values of window.postMessage": "https://github.com/CharlesStover/twitter-bot-tweets/raw/master/tweets/charlesstover/rn-webview.png"
+      }
     }
   ],
 
-  "Spritesheet to GIF Converter": [
+  "spritesheet2gif": [
     {
-      "status": "Convert sprite sheets to animated #GIFs with the click of a button.",
+      "status": "Easily convert sprite sheets to animated #GIFs from your browser.",
       "link": "https://charlesstover.com/spritesheet2gif"
     }
   ],
@@ -218,11 +224,10 @@
   "use-clippy": [
     {
       "status": "Read from and write to your users' clipboards with #ReactJS hooks.",
-      "link": "https://medium.com/@Charles_Stover/manage-your-customers-clipboard-with-react-hooks-18486220d0d1"
-    },
-    {
-      "status": "Read from and write to your users’ clipboards with a #ReactJS hook.",
-      "link": "https://github.com/CharlesStover/use-clippy"
+      "link": "https://charles-stover.medium.com/manage-your-customers-clipboard-with-react-hooks-18486220d0d1",
+      "media": {
+        "The React logo on top of the C and V keys": "https://github.com/CharlesStover/twitter-bot-tweets/raw/master/tweets/charlesstover/use-clippy.png"
+      }
     }
   ],
 
@@ -243,28 +248,41 @@
   "use-mouse-move": [
     {
       "status": "Your #ReactJS components can now track your users' mouse as it moves.",
-      "link": "https://www.npmjs.com/package/use-mouse-move"
+      "link": "https://github.com/CharlesStover/use-mouse-move"
     }
   ],
 
   "use-offline": [
     {
       "status": "Want to change your #ReactJS app when your users disconnect from the internet? Now you can.",
-      "link": "https://www.npmjs.com/package/use-offline"
+      "link": "https://github.com/CharlesStover/use-offline"
+    }
+  ],
+
+  "use-react-router": [
+    {
+      "status": "How to replace react-router’s withRouter with a #ReactJS hook",
+      "link": "https://charles-stover.medium.com/how-to-convert-withrouter-to-a-react-hook-19bb02a29ed6",
+      "media": {
+        "use-react-router": "https://github.com/CharlesStover/twitter-bot-tweets/raw/master/tweets/charlesstover/use-react-router.png"
+      }
     }
   ],
 
   "use-update-effect": [
     {
       "status": "Trouble migrating componentDidUpdate to #ReactJS hooks? Problem solved.",
-      "link": "https://www.npmjs.com/package/use-update-effect"
+      "link": "https://github.com/CharlesStover/use-update-effect"
     }
   ],
 
   "Variable length currying in JavaScript": [
     {
       "status": "How to write a curried function in #JavaScript that can take any number of parameters.",
-      "link": "https://medium.com/@Charles_Stover/variable-length-currying-in-javascript-7f7bb7bdad8b"
+      "link": "https://charles-stover.medium.com/variable-length-currying-in-javascript-7f7bb7bdad8b",
+      "media": {
+        "Shocked child looking at a code snippet": "https://github.com/CharlesStover/twitter-bot-tweets/raw/master/tweets/charlesstover/variable-length-currying.png"
+      }
     }
   ]
 }
