@@ -1,14 +1,14 @@
 {
   "@charlesstover/hsl2rgb": [
     {
-      "status": "Work with colors? Simplify your code base by using hsl2rgb to easily convert HSL to RGB values in #JavaScript.",
+      "status": "Work with colors more easily by using HSL. Only convert to RGB as needed. #JavaScript",
       "link": "https://github.com/CharlesStover/hsl2rgb-js"
     }
   ],
 
   "@charlesstover/quicksort": [
     {
-      "status": "How to implement the Quicksort algorithm in #JavaScript",
+      "status": "Preparing for an interivew? Practice your algorithms by implementing Quicksort in #JavaScript.",
       "link": "https://charles-stover.medium.com/implementing-quicksort-in-javascript-8044a8e2bf39",
       "media": {
         "visualization of the quicksort algorithm": "https://github.com/CharlesStover/twitter-bot-tweets/raw/master/tweets/charlesstover/quicksort.gif"
@@ -18,7 +18,7 @@
 
   "Are you underqualified to apply to a software development position?": [
     {
-      "status": "For any junior developers overwhelmed by minimum requirements and unsure if you're ready:",
+      "status": "Imposter syndrome is real. You are qualified.",
       "link": "https://charles-stover.medium.com/are-you-underqualified-to-apply-to-a-software-development-position-45c01079861a",
       "media": {
         "stressed man in front of computer": "https://github.com/CharlesStover/twitter-bot-tweets/raw/master/tweets/charlesstover/are-you-underqualified.png"
